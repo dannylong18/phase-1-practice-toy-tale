@@ -109,37 +109,4 @@ document.addEventListener("DOMContentLoaded", () => {
       divCard.appendChild(toyBtn)
     })
   })
-
-  /*let likeBtnUpdate = document.getElementsByClassName('like-btn')
-      let likeBtnArray = Array.from(likeBtnUpdate)
-      likeBtnArray.forEach((button) => {
-      button.addEventListener('click', (e) => {
-      console.log(e)
-    })
-  })*/
 })
-
-
-/*let likeBtnUpdate = document.getElementsByClassName('like-btn')
-Array.from(likeBtnUpdate)
-  for (let i = 0; i < likeBtnUpdate.length; i++) {
-    likeBtnUpdate[i].addEventListener('click', (e) => {
-      console.log(e)
-    })
-  }
-  
-
-  let likeBtnUpdate = document.getElementsByClassName('like-btn')
-  let likeBtnArray = Array.from(likeBtnUpdate)
-  likeBtnArray.forEach((button) => {
-    button.addEventListener('click', (e) => {
-    console.log(e)
-    })
-  })
-
-  
-  for (let i = 0; i < likeBtnUpdate.length; i++) {
-    likeBtnUpdate[i].addEventListener('click', (e) => {
-      console.log(e)
-    })
-  }*/
